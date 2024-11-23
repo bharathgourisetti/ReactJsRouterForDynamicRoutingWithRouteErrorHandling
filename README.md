@@ -2,7 +2,19 @@ to setup at local system, install node.js
 
 #download and install node.js fnm use --install-if-missing 22
 
-simply clone the code and run below command npm start
+simply clone the code and run below command npm install and npm start
+
+commands to run fake api
+
+Get-ExecutionPolicy
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+npm install -g json-server
+
+json-server --watch E:\7iTech\reactprojects\reactRoutings\ReactJsRouterForDynamicRoutingWithRouteErrorHandling\src\JsonData\jobsdata.json  --port 5000
+
+npm install Axios
 
 # Getting Started with Create React App
 
